@@ -5,7 +5,7 @@ const SingleOrder = (props) => {
     const { _id,courseName, courseDescription, img } = props.order
     const history = useHistory();
     const handleDelete = ()=>{
-        fetch(`http://localhost:5000/delete/${_id}`,{
+        fetch(`https://fierce-savannah-48718.herokuapp.com/delete/${_id}`,{
             method: 'DELETE',
         })
         .then(res=>res.json())

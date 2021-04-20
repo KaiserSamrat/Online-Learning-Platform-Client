@@ -12,7 +12,7 @@ const Services = () => {
     const [course, setCourse] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://fierce-savannah-48718.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setCourse(data))
     }, [])

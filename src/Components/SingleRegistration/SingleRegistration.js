@@ -8,7 +8,7 @@ const SingleRegistration = (props) => {
 
     const updateProduct = () =>{
         const update = document.getElementById('update-status')
-        fetch(`http://localhost:5000/update/${_id}`,{
+        fetch(`https://fierce-savannah-48718.herokuapp.com/update/${_id}`,{
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(updateOrder)
@@ -22,7 +22,7 @@ const SingleRegistration = (props) => {
     }
 
     const handleDelete = ()=>{
-        fetch(`http://localhost:5000/delete/${_id}`,{
+        fetch(`https://fierce-savannah-48718.herokuapp.com/delete/${_id}`,{
             method: 'DELETE',
         })
         .then(res=>res.json())

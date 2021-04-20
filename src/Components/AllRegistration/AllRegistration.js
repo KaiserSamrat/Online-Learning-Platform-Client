@@ -5,7 +5,7 @@ import SingleRegistration from '../SingleRegistration/SingleRegistration';
 const AllRegistration = () => {
     const [courseList, setCourseList] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/bookList`)
+        fetch(`https://fierce-savannah-48718.herokuapp.com/bookList`)
             .then(res => res.json())
             .then(data => setCourseList(data))
     }, [])

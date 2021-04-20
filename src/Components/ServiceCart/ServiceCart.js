@@ -16,7 +16,7 @@ const ServiceCart = () => {
     
     const handleSubmit = (e) =>{
         e.preventDefault();
-        fetch(`http://localhost:5000/addCart`,{
+        fetch(`https://fierce-savannah-48718.herokuapp.com/addCart`,{
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(userInfo)
@@ -29,7 +29,7 @@ const ServiceCart = () => {
 
     }
     useEffect(()=>{
-        fetch(`http://localhost:5000/service/${id}`)
+        fetch(`https://fierce-savannah-48718.herokuapp.com/service/${id}`)
         .then(res =>res.json())
         .then(data => {
             setCourseInfo(data);

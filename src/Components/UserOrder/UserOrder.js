@@ -9,7 +9,7 @@ const UserOrder = () => {
 
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/bookList/${user.email}`)
+        fetch(`https://fierce-savannah-48718.herokuapp.com/bookList/${user.email}`)
         .then(res => res.json())
         .then(data =>setOrderInfo(data))
     },[])
