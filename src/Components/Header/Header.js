@@ -14,7 +14,7 @@ const Header = () => {
                         <h1 className='title'>YourTutor</h1>
                         <h2>Be the Boss of Coding</h2>
                         <p className='header-desc'>This is the best online teaching platform for leaning programming</p>
-                        <button class="btn btn-warning">Register</button>
+                        <a href="#services-area"><button class="btn btn-warning">Register</button></a>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const Footer = () => {
                         <p>This is a online teaching platform. We tried to teach a student in a way that they can success in professional life. We give the best services in order to support the student </p>
 
                     </div>
-                    <div className="col-md-3 mt-3">
+                    <div className="col-md-3 mt-3 Quick-Links">
                         <h5>Quick Links</h5>
                         <ul className='Quick-Links'>
                             <li>Contact</li>
