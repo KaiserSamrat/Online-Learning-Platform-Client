@@ -36,7 +36,7 @@ const Addcourse = () => {
                         <h3>Add new Event</h3>
                         <form onSubmit={handleSubmit}>
                             <input type="text" onBlur={handleOnBlur} name="name" className="form-control" placeholder="Course Name" required /> <br />
-                            <input className="form-control" type="text" onBlur={handleOnBlur} name="description" placeholder="Course Price" required /><br />
+                            <input className="form-control" type="text" onBlur={handleOnBlur} name="description" placeholder="Course Description" required /><br />
                             <input className="form-control" type="text" onBlur={handleOnBlur} name="img" placeholder="Image URL" required /><br />
                             <button className="btn btn-primary">Add Event</button>
                         </form>

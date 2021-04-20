@@ -24,7 +24,8 @@ const SingleOrder = (props) => {
                 <div className="card-body">
                     <h3>{courseName}</h3>
                     <h5>{courseDescription}</h5>
-                    <div onClick={handleDelete} className="btn btn-danger">Delete</div>
+                    <div onClick={handleDelete} className="btn btn-danger me-2">Delete</div>
+                    <div  className="btn btn-warning">Pending</div>
                 </div>
 
             </div>

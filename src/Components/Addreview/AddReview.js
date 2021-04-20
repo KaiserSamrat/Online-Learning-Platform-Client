@@ -46,7 +46,7 @@ const AddReview = () => {
                         <Link to='/addReview'><button className='btn btn-success'>Add Review</button></Link>
                         <br/>
                         <br/>
-                        <Link to='/'><button className='btn btn-success'>Register Course</button></Link>
+                        <Link href="#services-area"><button className='btn btn-success'>Register Course</button></Link>
                     </div>
                     <div className="col-md-8 bg-light mt-5">
                         <h3>Add Review</h3>
@@ -54,6 +54,7 @@ const AddReview = () => {
                             <input type="text" onBlur={handleOnBlur} name="userName" className="form-control" placeholder="Your Name" value={user.name} required /> <br />
                             <input type="text" onBlur={handleOnBlur} name="coursName" className="form-control" placeholder="Course Name" required /> <br />
                             <textarea className="form-control" type="text" onBlur={handleOnBlur} name="description" placeholder="Course Description" required /><br />
+                            <p>User Image Url</p>
                             <input type="text" onBlur={handleOnBlur} name="userImage" className="form-control" placeholder="Your Name" value={user.img} /> <br />
 
 
