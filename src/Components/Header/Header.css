@@ -3,12 +3,12 @@
     width: 100%;
     /* background-color: aliceblue; */
 }
-h1{
-    color: red;
-}
-h2{
-    color: orangered;
-}
-p{
+.title{
     color: darkcyan;
+    font-weight: bold;
+}
+
+.header-desc{
+    color: darkred;
+    font-weight: bold;
 }

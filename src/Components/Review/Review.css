@@ -17,3 +17,11 @@
     background: transparent;
     border: 0;
 }
+.testimonial{
+    color: brown;
+    font-weight: bold;
+}
+.review-title{
+    color: darkslategrey;
+    font-weight: bold;
+}

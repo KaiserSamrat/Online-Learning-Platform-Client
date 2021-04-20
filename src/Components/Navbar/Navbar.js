@@ -16,13 +16,13 @@ const Navbar = () => {
                 <Link class="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link ms-3" to="/">Contact</Link>
+                <a class="nav-link ms-3" href="#footer-area">Contact</a>
               </li>
               <li class="nav-item">
-                <Link class="nav-link ms-3" to="/">About Us</Link>
+                <a class="nav-link ms-3" href="#review-area">Reviews</a>
               </li>
               <li class="nav-item">
-                <Link class="nav-link ms-3" to="/">Courses</Link>
+                <a class="nav-link ms-3" href="#services-area">Courses</a>
               </li>
              <Link to='/dashboard'> <button className='btn btn-success me-3'>DashBoard</button></Link>
              <Link to='/Login'> <button className='btn btn-info me-3'>Login</button></Link>

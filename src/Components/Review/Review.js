@@ -12,11 +12,11 @@ const Review = () => {
             .then(data => setReview(data))
     }, [])
     return (
-        <section className="review my-5 py-5">
+        <section className="review my-5 py-5" id='review-area'>
         <div className="container">
             <div className="section-header text-center">
-                <h5 className="text-primary text-uppercase text-center">Testimonial</h5>
-                <h1>Student Reviews</h1>
+                <h5 className=" text-center testimonial">Testimonial</h5>
+                <h2 className='review-title'>Student Reviews</h2>
             </div>
            
             <div className="card-deck mt-5 row">

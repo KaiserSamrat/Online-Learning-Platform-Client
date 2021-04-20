@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Service.css'
 
 
 import ServiceDetails from '../ServiceDetails/ServiceDetails';
@@ -7,15 +8,7 @@ import ServiceDetails from '../ServiceDetails/ServiceDetails';
 
 
 const Services = () => {
-    // const addServices = () =>{
-    //         fetch(`http://localhost:5000/addservice`,{
-    //             method: 'POST',
-    //             headers: { 'Content-Type': 'application/json' },
-    //             body: JSON.stringify(serviceData)
-    //         })
-    //         .then(res => res.json())
-    //         .then(data=>console.log(data))
-    // }
+
     const [course, setCourse] = useState([]);
 
     useEffect(() => {
@@ -25,17 +18,17 @@ const Services = () => {
     }, [])
     
     return (
-        <div>
+        <div id='services-area'>
           
             <section className='mt-5'>
                 <div className='text-center'>
-                    <h5>Our Courses</h5>
-                    <h2>Courses we provide</h2>
+                    <h5 className='service-title'>Our Courses</h5>
+                    <h2 className='service-pro'>Courses we provide</h2>
                 </div>
             </section>
 
             <div className="d-flex justify-content-center">
-                <div className="w-75 row  mt-5 pt-5">
+                <div className="w-75 row  mt-5 pt-5 ">
                     {
                         course.map(service => <ServiceDetails service={service} key={service.name}></ServiceDetails>)
                     }

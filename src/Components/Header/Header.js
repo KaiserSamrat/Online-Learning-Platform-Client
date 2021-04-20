@@ -11,10 +11,10 @@ const Header = () => {
                         <img class="d-block w-100" src={studyImage}alt=""/>
                     </div>
                     <div class="col-md-4" >
-                        <h1>YourTutor</h1>
+                        <h1 className='title'>YourTutor</h1>
                         <h2>Be the Boss of Coding</h2>
-                        <p>This is the best online teaching platform for leaning programming</p>
-                        <button class="btn btn-warning">Buy Now</button>
+                        <p className='header-desc'>This is the best online teaching platform for leaning programming</p>
+                        <button class="btn btn-warning">Register</button>
                     </div>
                 </div>
             </div>
