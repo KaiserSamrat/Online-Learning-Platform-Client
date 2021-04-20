@@ -1,0 +1,19 @@
+.review{
+    background-color:beige;
+}
+.review .container{
+   
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+}
+.review .card{
+    border-color: transparent;
+    width: 350px;
+   margin: 10px;
+}
+
+.review .card .card-footer{
+    background: transparent;
+    border: 0;
+}

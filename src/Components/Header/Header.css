@@ -1,0 +1,14 @@
+.header{
+    height: 450px;
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+h1{
+    color: red;
+}
+h2{
+    color: orangered;
+}
+p{
+    color: darkcyan;
+}

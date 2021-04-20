@@ -1,0 +1,13 @@
+.image-area img{
+    border-radius: 70%;
+    height: 300px;
+    
+}
+.sir-name{
+    color: teal;
+    font-weight: bolder;
+}
+.sir-description{
+    color: darkolivegreen;
+    font-weight: bold;
+}
